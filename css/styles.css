@@ -16,16 +16,27 @@ h1{
 section {
     flex-direction: row;
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    
     
     
 }
 
 article {
+
     background-color: pink;
     width: 300px;
-    
+    margin-top: calc(50% - 40%);
+	position: relative;
+}
 
+article i{
+    position: absolute;
+    font-size: 25px;
+    z-index: 10;
+    color: crimson;
+    top: 10px;
+    left:10px;
 }
