@@ -1,0 +1,47 @@
+@import 'variables';
+
+body{
+    header{
+        p{
+            background-color: #1CD1B0;
+        }
+        h1{
+            background-color: #00669F;
+        }
+    }
+
+    main{
+        section {
+            flex-direction: row;
+            display: flex;
+            align-items:center;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+
+            article{
+                background-color: pink;
+                width: 300px;
+                margin-top: calc(50% - 40%);
+                position: relative;
+                i {
+                    position: absolute;
+                    font-size: 25px;
+                    z-index: 10;
+                    color: crimson;
+                    top: 10px;
+                    left:10px;
+                }
+                &.batichica{
+                    background-color: turquoise;
+                }
+                &.batman{
+                    background-color: tomato;
+                }
+                &.ruben{
+                    background-color: $color;
+                }
+            }
+            
+        }
+    }
+}

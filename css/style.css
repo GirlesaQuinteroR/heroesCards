@@ -1,0 +1,54 @@
+body header p {
+  background-color: #1CD1B0;
+}
+
+body header h1 {
+  background-color: #00669F;
+}
+
+body main section {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body main section article {
+  background-color: pink;
+  width: 300px;
+  margin-top: calc(50% - 40%);
+  position: relative;
+}
+
+body main section article i {
+  position: absolute;
+  font-size: 25px;
+  z-index: 10;
+  color: crimson;
+  top: 10px;
+  left: 10px;
+}
+
+body main section article.batichica {
+  background-color: turquoise;
+}
+
+body main section article.batman {
+  background-color: tomato;
+}
+
+body main section article.ruben {
+  background-color: blue;
+}
+/*# sourceMappingURL=style.css.map */
